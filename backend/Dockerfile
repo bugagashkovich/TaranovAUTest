@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Переменные окружения
 # Служебные
-ENV PORT 4000
+ENV PORT 3000
 
 
 # REDIS

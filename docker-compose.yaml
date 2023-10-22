@@ -4,7 +4,7 @@ services:
     image: bugagashkovich1/taranovau_test
     command: node ./dist/index.js
     ports:
-      - "8000:4000"
+      - "3000:3000"
     links:
       - redis
   redis:

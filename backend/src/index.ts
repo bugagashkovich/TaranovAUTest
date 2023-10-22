@@ -13,8 +13,8 @@ app.use(express.json());
 app.use(cors());
 
 // SETUP ROUTES
-app.use("/api/auth", authRouter);
-app.use("/api/balance", balanceRouter);
+app.use("/auth", authRouter);
+app.use("/balance", balanceRouter);
 
 async function init() {
   if (!process.env.REDIS_URL) throw new Error("Please specify REDIS_URL");

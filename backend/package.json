@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn tsc --build && node ./dist/index.js"
+    "start": "yarn tsc --build && node ./dist/index.js",
+    "build": "yarn tsc --build"
   },
   "devDependencies": {
     "@types/cors": "^2.8.15",
